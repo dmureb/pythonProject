@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #3399cc;
+}
+
+div#interface {
+    position: relative;
+    background-color: #c7e0f4;
+    width: 900px;
+    margin: -23px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+    padding: 10px;
+    margin-top: 5px;
+    height: 700px;
+}
+
+header#cabecalho h1 {
+    font-family: Courier;
+    color: #00009C;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    text-align: center;
+}
+
+header#cabecalho h2 {
+    font-family: Courier, sans-serif;
+    color: #00009C;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 18px;
+    position: absolute;
+    top: 100px;
+    right: 252px;
+
+}
+
+h2#titulo  {
+    border-top: 1px solid #333;
+    margin: 0px;
+    padding: 10px;
+    color: #696969;
+    text-align: left;
+}
+
+img {
+    width: 480px;
+    position: relative;
+    left: 12px;
+}
+
+p {
+    font-size: 18px;
+    color: #696969;
+    padding: 5px;
+}
+
+footer {
+    clear: both; /* limpa o efeito dos floats anteriores */
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
